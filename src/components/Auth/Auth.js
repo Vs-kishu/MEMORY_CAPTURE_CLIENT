@@ -130,7 +130,7 @@ const SignUp = () => {
           >
             {isSignup ? "Sign Up" : "Sign In"}
           </Button>
-          <GoogleLogin
+          {/* <GoogleLogin
             clientId={process.env.GOOGLE_CLIENT_ID}
             render={(renderProps) => (
               <Button
@@ -148,7 +148,7 @@ const SignUp = () => {
             onSuccess={googleSuccess}
             onFailure={googleError}
             cookiePolicy="single_host_origin"
-          />
+          /> */}
           <Grid container justify="flex-end">
             <Grid item>
               <Button onClick={switchMode}>
